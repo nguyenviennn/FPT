@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px 15px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.search-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    padding: 5px 37px 5px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #c8d6e5;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.search {
+    position: relative;
+}
+
+#btn-search {
+    position: absolute;
+    right: 0;
+    border-radius: 0 3px 3px 0;
+    height: 36px;
+    background-color: orangered;
+    border: 1px solid transparent;
+    width: 40px;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 10px;
+}
+
+.language a {
+    display: flex;
+    width: 100%;
+}
+
+.language img {
+    width: 40px;
+}
+/* ---------logo--------- */
+
+.header-bottum {
+    background: #f05123;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+}   
+.list-menu {
+    display: flex;
+}
+
+.list-menu li {
+    list-style-type: none;
+}
+
+ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.list-menu a {
+    text-decoration: none;
+    padding:15px 10px;
+    display: block;
+    color: white;
+    transition: all 0.2s ease-in;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.list-menu a:hover {
+    color: #23527c;
+    text-decoration: underline;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.menu-parent1 {
+    position: relative;
+}
+
+.menu-child1 {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    top: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent1:hover .menu-child1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-child1 a {
+    color: #576574;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.menu-parent11 {
+    position: relative;
+}
+
+.menu-child11 {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent11:hover .menu-child11 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent2 {
+    position: relative;
+}
+
+.menu-child2 {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    top: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent2:hover .menu-child2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-child2 a {
+    color: #576574;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.menu-parent3 {
+    position: relative;
+}
+
+.menu-child3 {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    top: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent3:hover .menu-child3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-child3 a {
+    color: #576574;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.menu-parent31 {
+    position: relative;
+}
+
+.menu-child31 {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent31:hover .menu-child31 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent32 {
+    position: relative;
+}
+
+.menu-child32 {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent32:hover .menu-child32 {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.menu-parent33 {
+    position: relative;
+}
+
+.menu-child33 {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent33:hover .menu-child33 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent4 {
+    position: relative;
+}
+
+.menu-child4 {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    top: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent4:hover .menu-child4 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-child4 a {
+    color: #576574;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.menu-parent41,
+.menu-parent42,
+.menu-parent43,
+.menu-parent44,
+.menu-parent45,
+.menu-parent51 {
+    position: relative;
+}
+
+.menu-child41,
+.menu-child42,
+.menu-child43,
+.menu-child44,
+.menu-child45,
+.menu-child51 {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent41:hover .menu-child41 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent42:hover .menu-child42 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent43:hover .menu-child43 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent44:hover .menu-child44 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent45:hover .menu-child45 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent51:hover .menu-child51 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-parent5 {
+    position: relative;
+}
+
+.menu-child5 {
+    position: absolute;
+    left: 0;
+    width: 300%;
+    top: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent5:hover .menu-child5 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-child5 a {
+    color: #576574;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.menu-parent6 {
+    position: relative;
+}
+
+.menu-child6 {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    top: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background-color: white;
+}
+
+.menu-parent6:hover .menu-child6 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-child6 a {
+    color: #576574;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+#btn-menu{
+    display:none;
+    background-color:#f05123;
+}
+#btn-menu button{
+    background-color:#f37125;
+    margin: 5px 5px 5px 20px;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+/* ---------responsive--------- */
+@media screen and (max-width:1025px) {
+    #btn-menu{
+        display:block;
+    }
+    .list-menu {
+        display:none;
+    }
+    .show-menu{
+        display: block;
+        position:fixed;
+        z-index: 99999;
+        background-color:#f05123;
+    }
+    .list-menu a {
+        padding: 7px;
+    }
+}
+@media screen and (max-width: 769px) {
+   .search{
+        display:none;
+    }
+   .header-bottum{
+    position: absolute;
+    top: 30px;
+    background-color: transparent;
+    right: 0;
+   }
+   #btn-menu{
+       background-color: transparent;
+   }
+   .show-menu{
+       right: 0;
+   }
+}
+@media screen and (max-width:426px){
+    .language{
+        display: none;
+    }   
+    .logo img{
+        margin-right: 40px;
+    }
+}
