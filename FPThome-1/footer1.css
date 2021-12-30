@@ -1,0 +1,95 @@
+.footer {
+    padding-top: 50px;
+}
+
+.license {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f05123;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+    font-size: 40px;
+}
+
+.fa-youtube {
+    color: #cd201f;
+    font-size: 40px;
+}
+
+.contact {
+    padding-top: 30px;
+}
+
+.contact h4 {
+    color: #f05123;
+    text-transform: uppercase;
+}
+
+/* ---------hotlines--------- */
+.hotline {
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-facebook-messenger {
+    color: #f37125;
+    font-size: 60px;
+    padding-left: 10px;
+}
+
+.phone {
+    background-color: #f37125;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.phone:hover {
+    background-color: #cd201f;
+}
+
+.call {
+    background-color: #f37125;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.call a {
+    text-decoration: none;
+    color: white;
+}
+
+.call:hover {
+    background-color: #cd201f;
+}
+
+.phone p {
+    padding: 20px 10px 0 10px;
+}
+
+.call a {
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 769px) {
+    .phone{
+        display: none;
+    }
+}
