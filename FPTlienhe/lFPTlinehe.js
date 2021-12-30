@@ -24,19 +24,7 @@ $(document).ready(function () {
         color: 'red'
       }).text('Tối thiểu 3 ký tự và tối đa 50 ký tự');
     }
-    var input_name = $('#town').val();
-    if (3 < input_name.length < 50) {
-      $('.check-town').css({
-        color: 'red'
-      }).text('Tối thiểu 3 ký tự và tối đa 50 ký tự');
-    }
-    var input_name = $('#school').val();
-    if (3 < input_name.length < 50) {
-      $('.check-school').css({
-        color: 'red'
-      }).text('Tối thiểu 3 ký tự và tối đa 50 ký tự');
-    }
-
+   
     var input_email = $('#email').val();
     var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     if (regex.test(input_email)) {
@@ -76,7 +64,20 @@ $(document).ready(function () {
         color: 'red'
       }).text('Không đúng định dạng');
     }
-  });
+
+    var input_name = $('#town').val();
+    if (3 < input_name.length < 50) {
+      $('.check-town').css({
+        color: 'red'
+      }).text('Tối thiểu 3 ký tự và tối đa 50 ký tự');
+    }
+    var input_name = $('#school').val();
+    if (3 < input_name.length < 50) {
+      $('.check-school').css({
+        color: 'red'
+      }).text('Tối thiểu 3 ký tự và tối đa 50 ký tự');
+    }
+    });
 });
 
 
