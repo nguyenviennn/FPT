@@ -1,0 +1,534 @@
+/* -------banner------ */
+.why {
+    background-color: #f37125;
+    padding-bottom: 40px;
+    /* background-image: linear-gradient(#f05122, #f4772e); */
+}
+
+
+.why p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.why-fpt p {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.five-star p {
+    width: 100%;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.top2 {
+    display: flex;
+    justify-content: center;
+}
+
+.top2 img {
+    margin-bottom: 35px
+}
+
+.percent p {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.bonus {
+    display: flex;
+    justify-content: center;
+}
+
+.bonus img {
+    margin-bottom: 35px;
+}
+
+
+/* ----------------news-infor */
+
+.container>h3 {
+    text-align: center;
+    margin: 50px auto;
+    color: #f05123;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.news-infor {
+    display: flex;
+    margin: 20px 0;
+}
+
+.img-new img {
+    width: 100%;
+    height: 150px;
+}
+
+.img-new:hover {
+    opacity: 0.8;
+}
+
+.text-new p,
+a {
+    font-size: 14px;
+}
+
+.text-new>a>h3 {
+    font-size: 24px;
+    text-transform: initial;
+}
+
+.text-new a:last-child {
+    color: #f37125;
+    font-weight: 100;
+}
+
+/* ------------form-main */
+
+.form-main {
+    background-image: url(https://daihoc.fpt.edu.vn/media/2016/12/form-background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-create {
+    background-color: #f05123;
+    padding: 50px;
+    margin: 30px 0;
+}
+
+.form-create>p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-create p,
+label {
+    color: white;
+}
+
+.video {
+    margin-top: 50px;
+}
+
+.video__content {
+    background-image: url(https://daihoc.fpt.edu.vn/media/2016/12/video-background-e1481258016240.png);
+    height: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video__content a {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    line-height: 110px;
+    font-size: 60px;
+}
+
+.form {
+    margin-top: 70px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-login {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-submit {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: #f05123;
+    color: #fff;
+    line-height: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: all .2s;
+    padding: 0px 10px;
+    margin-top: 30px;
+}
+
+.btn-submit:hover {
+    opacity: 0.5;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+/* ----------infor-teacher */
+.infor-teacher {
+    background: #ccc;
+    padding: 40px;
+}
+
+.slide1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.text-1 {
+    padding: 30px;
+    width: 70%;
+    font-style: italic;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+}
+
+.img-2 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-2 img {
+    border-radius: 50%;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.img-2 h3 {
+    padding-top: 20px;
+    color: #f05123;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text-1 h4 {
+    color: #f4772e;
+}
+
+.text-1 p {
+    color: #404040;
+}
+
+.teacher {
+    background: #fff;
+}
+
+.infor-teacher p:first-child {
+    color: #f05123;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+/* -------student------------------------ */
+.student-right {
+    background-image: url(https://daihoc.fpt.edu.vn/media/2016/12/Alumni-Background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 539px;
+}
+
+.section-student {
+    padding-bottom: 40px;
+    background: #ededed;
+}
+
+.section-student p:first-child {
+    text-align: center;
+    color: #f05123;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.img-student img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.img-student p {
+    text-align: justify;
+}
+
+.name,
+.infor {
+    color: #f05123;
+    text-transform: uppercase;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.infor {
+    font-size: 15px;
+}
+
+/* -------------slide3 */
+.ceo {
+    background-color: #ccc;
+}
+
+.ceo p:first-child {
+    text-align: center;
+    color: #f05123;
+    font-size: 40px;
+    padding: 35px;
+}
+
+.slide3 {
+    display: flex;
+}
+
+.infor-top {
+    width: 100%;
+    height: 40%;
+    background-color: #f37125;
+}
+
+.slide3 h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.slide3 h4 {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.slide3 p {
+    text-align: justify;
+}
+
+.infor1 {
+    margin: 0 20px 30px 0;
+    height: 600px;
+}
+
+.infor-bottum {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.infor-bottum img {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    top: -85px;
+}
+
+@media screen and (max-width:426px) {
+    .student-right {
+        display: none;
+    }
+
+    #infor1 {
+        display: none;
+    }
+
+    .img-2 img {
+        border-radius: 50%;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text-1 {
+        padding: 0;
+        width: 70%;
+        font-style: italic;
+        text-align: justify;
+        color: black;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .infor-teacher {
+        padding: 0;
+        padding-bottom: 50px;
+    }
+}
+
+/* ----------comment */
+.comment-top {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-body {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.comment-body img {
+    margin: 0 10px;
+}
+
+.comment-input {
+    width: 100%;
+
+}
+
+#comment {
+    width: 100%;
+    padding: 5px 20px;
+    height: 60px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.dang {
+    display: none;
+}
+
+.comment-btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f5f6f7;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.comment-btn button {
+    background-color: #0984e3;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.comment {
+    margin-top: 30px;
+}
+
+.infor-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-left {
+    display: flex;
+}
+
+.comment-left img {
+    margin: 0 10px;
+}
+
+.comment-user a:first-child {
+    color: #385898;
+    cursor: pointer;
+}
+
+.comment-user span {
+    font-size: 14px;
+    color: gray;
+}
+
+.interactive {
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.commnet-right {
+    display: none;
+    position: relative;
+}
+
+.commnet-right button {
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid transparent;
+    color: #ccc;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.infor-user:hover .commnet-right {
+    display: block;
+}
+
+.spam {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    right: 0;
+    width: 200px;
+    background-color:white;
+}
+.spam a {
+    display: block;
+    padding: 5px 10px;
+    color: #404040;
+}
+.spam a:hover{
+    color: white;
+    background-color:#1D3C78;
+    text-decoration: none;
+}
+
+.load-comment {
+    margin-top:30px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.load-comment button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #0984e3;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.load-comment button:hover{
+    background-color: #ccc;
+}
+.facebook{
+    color: #1D3C78;
+    font-size: 12px;
+    font-weight: bold;
+}
